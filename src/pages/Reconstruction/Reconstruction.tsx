@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Animation from "./Animation";
 
 const ReconstructionPage = () => {
   return (
@@ -23,7 +22,7 @@ const ReconstructionPage = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4"
+            className="h-6 w-6"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
@@ -35,26 +34,21 @@ const ReconstructionPage = () => {
             backgroundColor: "rgb(0, 0, 0, 0.35)",
             borderRadius: "20px",
           }}
-          className="h-3/4 w-3/4 mx-auto flex-col flex justify-center"
+          className="h-screen w-screen mx-auto flex-col flex justify-center md:h-screen"
         >
           <h1
             style={{
-              fontSize: "5rem",
-              color: "white",
-              textShadow: "5px 5px 10px black",
+              marginBottom: "45px",
             }}
-            className="text-center center"
+            className="text-center bottom-5 md:text-6xl text-4xl decoration-white text-white"
           >
             Strona w przebudowie
           </h1>
           <h1
             style={{
-              fontSize: "4rem",
-              color: "white",
-              marginTop: "100px",
-              textShadow: "5px 5px 10px black",
+              marginBottom: "75px",
             }}
-            className="text-center center"
+            className="text-center center text-3xl text-white top-250"
           >
             Zapraszamy już niedługo
           </h1>
