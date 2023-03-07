@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { ReconstructionPage } from "./Reconstruction/Reconstruction";
+import ReconstructionPage from "./Reconstruction/Reconstruction";
 
 export default function Home() {
   return (

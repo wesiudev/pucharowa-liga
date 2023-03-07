@@ -4,7 +4,7 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 //creating component
-export const Animation = () => {
+const Animation = () => {
   //creating refs for the canvas and camera
   const canvasRef = useRef(null);
   const wrapperRef = useRef();
@@ -74,3 +74,4 @@ export const Animation = () => {
     </>
   );
 };
+export default Animation;

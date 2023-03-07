@@ -1,7 +1,7 @@
 import Head from "next/head";
-import { Animation } from "./Animation";
+import Animation from "./Animation";
 
-export const ReconstructionPage = () => {
+const ReconstructionPage = () => {
   return (
     <>
       <Head>
@@ -64,3 +64,5 @@ export const ReconstructionPage = () => {
     </>
   );
 };
+
+export default ReconstructionPage;
